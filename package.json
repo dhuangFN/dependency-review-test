@@ -1,0 +1,9 @@
+{
+  "name": "dependency-review-test",
+  "version": "1.0.0",
+  "description": "Test repo for dependency-review-action",
+  "main": "index.js",
+  "dependencies": {
+    "minimist": "1.2.0"
+  }
+}
