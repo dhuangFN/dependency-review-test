@@ -4,6 +4,7 @@
   "description": "Test repo for dependency-review-action",
   "main": "index.js",
   "dependencies": {
-    "minimist": "1.2.0"
+    "minimist": "1.2.0",
+    "qs": "6.5.2"
   }
 }
