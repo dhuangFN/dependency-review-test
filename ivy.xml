@@ -10,6 +10,7 @@
     <dependency org="commons-lang" name="commons-lang" rev="2.4"/>
     <dependency org="commons-logging" name="commons-logging" rev="1.1.1"/>
     <dependency org="rhino" name="js" rev="1.5R4.1"/>
+    <dependency org="org.apache.logging.log4j" name="log4j-core" rev="2.14.1"/>
     <dependency org="com.marklogic" name="marklogic-xcc" rev="10.0.9"/>
     <dependency org="org.xerial.thirdparty" name="jdbc-api" rev="1.4"/>
   </dependencies>
