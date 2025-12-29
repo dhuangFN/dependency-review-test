@@ -45,6 +45,7 @@ const payload = {
   version: 0,
   sha,
   ref,
+  scanned: new Date().toISOString(),
   job: {
     id: process.env.GITHUB_JOB || 'ivy-dependency-submission',
     correlator: `${process.env.GITHUB_WORKFLOW || 'ivy-workflow'}:${process.env.GITHUB_JOB || 'ivy-dependency-submission'}`
