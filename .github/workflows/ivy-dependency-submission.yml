@@ -1,0 +1,19 @@
+name: 'Ivy Dependency Submission'
+
+on:
+  pull_request:
+  push:
+
+permissions:
+  contents: write
+
+jobs:
+  submit-ivy-deps:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checkout Repository'
+        uses: actions/checkout@v4
+      - name: 'Submit Ivy Dependency Snapshot'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/submit-ivy-deps.js ivy.xml

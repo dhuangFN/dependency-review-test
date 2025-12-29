@@ -1,0 +1,16 @@
+<ivy-module version="2.0">
+  <info organisation="com.cq" module="cq-udrloader"/>
+  <configurations defaultconf="default">
+    <conf name="default" transitive="false"/>
+  </configurations>
+  <dependencies>
+    <dependency org="cq" name="cq-base" rev="3.0.0b"/>
+    <dependency org="cq" name="cq-config" rev="1.1.0a"/>
+    <dependency org="commons-digester" name="commons-digester" rev="1.7"/>
+    <dependency org="commons-lang" name="commons-lang" rev="2.4"/>
+    <dependency org="commons-logging" name="commons-logging" rev="1.1.1"/>
+    <dependency org="rhino" name="js" rev="1.5R4.1"/>
+    <dependency org="com.marklogic" name="marklogic-xcc" rev="10.0.9"/>
+    <dependency org="org.xerial.thirdparty" name="jdbc-api" rev="1.4"/>
+  </dependencies>
+</ivy-module>
